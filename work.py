@@ -31,7 +31,7 @@ ask a user to input a sentence.
 # print total value as wordcount
 
 sentence = input(" Write a sentence: ") 
-
+wordcount()
 def wordcount():
     input("write a sentence")
     st = input.split( )
