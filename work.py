@@ -32,5 +32,12 @@ ask a user to input a sentence.
 
 sentence = input(" Write a sentence: ") 
 
-def wordcount:
+def wordcount():
+    input("write a sentence")
+    st = input.split( )
+    count = len(st)
+
+ 
+    print = count 
+
 
