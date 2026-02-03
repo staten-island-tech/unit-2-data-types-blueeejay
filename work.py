@@ -22,7 +22,15 @@ ask a user to input a sentence.
  First write out your plan in Pseudo-code using comments.
  Then craft the function. """
 
+# i will use the input method, and then take the inputted sentance, find a way
+# define function
+# in function: prompt user to write something
+# split sentance into words
+# assign a value of 1 to each words
+# find total value of sentance 
+# print total value as wordcount
+
 sentence = input(" Write a sentence: ") 
 
 def wordcount:
-   print(x)
+
