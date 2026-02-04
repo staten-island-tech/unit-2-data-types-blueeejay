@@ -14,8 +14,9 @@ z = y[0]
 print(y)
 print(z) """
 
-
-""" challenge: Using the "input" method in Python, 
+#CHALLENGE 1: 
+""" 
+Using the "input" method in Python, 
 ask a user to input a sentence. 
  develop a function that accepts a the user input 
  will tell you how many words are in that string.
@@ -24,20 +25,48 @@ ask a user to input a sentence.
 
 # i will use the input method, and then take the inputted sentance, find a way
 # define function
-# in function: prompt user to write something
+# in function: prompt user to write somethingS
 # split sentance into words
 # assign a value of 1 to each words
 # find total value of sentance 
 # print total value as wordcount
 
-sentence = input(" Write a sentence: ") 
-wordcount()
-def wordcount():
-    input("write a sentence")
-    st = input.split( )
+
+""" def wordcount():
+    sentence = input(" Write a sentence: ") 
+    st = sentence.split( )
     count = len(st)
+    print(count)
+wordcount() """
+# booleans and control flow
+""" day_of_week = input( " State the day of the Week:")
+if day_of_week == "FriYAY":
+    print("correct")
+else:
+    print("incorrect") """
 
- 
-    print = count 
+""" x = "man"
+print(f"hey {x}")
+ """
+""" 
+temp = 75
+if temp > 68:
+    print("warm")
+elif temp == 68:
+    print("perfect!")
+else:
+    print("cold") """
+# ans to q: it will print warm. 
+# challenge 2: even calculator 
 
+""" def even_or_odd():
+    number = int(input("State any integer:"))
+    remainder = number % 2
+    if remainder == 0:
+        print("Even")
+    else:
+        print("Odd")
+even_or_odd()
+ """
 
+# for tip calc: take bill and service value, convert bill to intg 
