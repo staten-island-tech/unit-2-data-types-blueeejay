@@ -68,5 +68,24 @@ else:
         print("Odd")
 even_or_odd()
  """
-
 # for tip calc: take bill and service value, convert bill to intg 
+
+
+""" service = input("How was the service you recieved today? awful, mediocre, satisfactory, or excellent?")
+bill = float(input("Cost of your meal today?:"))
+if service == "awful":
+    tipv = 0.0 * bill
+elif service == "mediocre": 
+     tipv = .15 * bill
+elif service == "satisfactory":
+     tipv =.20 * bill 
+elif service == "excellent":
+    tipv = .25 * bill 
+totb = tipv + bill
+
+def tipcalculator():
+     print("Suggested tip is shown first, total bill with that tip second .")
+     print(tipv)
+     print(totb)
+tipcalculator() """
+        
