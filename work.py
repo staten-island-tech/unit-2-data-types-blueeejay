@@ -88,4 +88,8 @@ def tipcalculator():
      print(tipv)
      print(totb)
 tipcalculator() """
-        
+# make a FUNCTION to state all factors of a number
+num = int(input("State an integer"))
+def fff():
+    listofactor = []
+    
