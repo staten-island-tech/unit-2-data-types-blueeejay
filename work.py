@@ -35,9 +35,10 @@ ask a user to input a sentence.
 """ def wordcount():
     sentence = input(" Write a sentence: ") 
     st = sentence.split( )
-    count = len(st)
+    count = len(st) # len counts how many things there are  in a string . googled this 
     print(count)
 wordcount() """
+
 # booleans and control flow
 """ day_of_week = input( " State the day of the Week:")
 if day_of_week == "FriYAY":
@@ -88,8 +89,40 @@ def tipcalculator():
      print(tipv)
      print(totb)
 tipcalculator() """
+
 # make a FUNCTION to state all factors of a number
-num = int(input("State an integer"))
+
+""" listofactor = []
+num = int(input("State an integer:"))
 def fff():
-    listofactor = []
-    
+    for i in range(1, num + 1): 
+        remainder = num % i # dividing number by factor, in this case, i 
+        if remainder == 0:
+            listofactor.append(i) # EVERY ITERATION OF i THAT THIS IS TRUE FOR WILL BE RECORDED IN listofactor. append inputs things in  a list. gooogled how to do this i did not know 
+    print("The factors of that integer are..")
+    print(listofactor)
+fff()
+ """
+# find the gcf of two numbers via a function 
+
+
+fac1 = []
+fac2 = []
+num1 = int(input("State an integer"))
+num2 = int(input("State another integer. It can be the same integer:"))
+def gcf():
+    for i in range(1, num1 + 1): 
+        remainder = num1 % i # dividing number by factor, in this case, i 
+        if remainder == 0:
+            fac1.append(i)
+    for i in range(1, num2 + 1): 
+         remainder = num2 % i # dividing number by factor, in this case, i 
+    if remainder == 0:
+            fac2.append(i)
+    cf = list ((fac1) & (fac2)) # googled this, the two lists are converted into sets, the & records common items in the set, and then makes a list out of them.  
+    print ("The GCF of these two numbers is..")
+    print(cf[-1]) # -1 indicates last. 
+gcf() 
+
+
+
