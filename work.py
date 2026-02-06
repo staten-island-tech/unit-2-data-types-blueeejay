@@ -119,9 +119,9 @@ def gcf():
          remainder = num2 % i # dividing number by factor, in this case, i 
     if remainder == 0:
             fac2.append(i)
-    cf = list ((fac1) & (fac2)) # googled this, the two lists are converted into sets, the & records common items in the set, and then makes a list out of them.  
+    cf = list (set(fac1) & set(fac2)) # googled this, the two lists are converted into sets, the & records common items in the set, and then makes a list out of them.  
     print ("The GCF of these two numbers is..")
-    print(cf[-1]) # -1 indicates last. 
+  """   print(cf[-1]) # -1 indicates last.  """
 gcf() 
 
 
