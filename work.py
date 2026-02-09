@@ -106,23 +106,21 @@ fff()
 # find the gcf of two numbers via a function 
 
 
-fac1 = []
-fac2 = []
-num1 = int(input("State an integer"))
+fac = []
+num1 = int(input("State an integer:"))
 num2 = int(input("State another integer. It can be the same integer:"))
 def gcf():
-    for i in range(1, num1 + 1): 
-        remainder = num1 % i # dividing number by factor, in this case, i 
+    for i in range(1, num1 + 1) and (1, num2, + 1): 
+        remainder = ((num1) % i) and ((num2) % i ) # dividing number by factor, in this case, i 
         if remainder == 0:
-            fac1.append(i)
-    for i in range(1, num2 + 1): 
-         remainder = num2 % i # dividing number by factor, in this case, i 
-    if remainder == 0:
-            fac2.append(i)
-    cf = list (set(fac1) & set(fac2)) # googled this, the two lists are converted into sets, the & records common items in the set, and then makes a list out of them.  
-    print ("The GCF of these two numbers is..")
-  """   print(cf[-1]) # -1 indicates last.  """
+            fac.append(i)
+    print(fac)
+
+    # print(list(set(fac1) & set(fac2))) # googled this, the two lists are converted into sets, the & records common items in the set, and then makes a list out of them. 
+    # # cf = list (set(fac1) & set(fac2)) # googled
+    #  this, the two lists are converted into sets, the & records common items in the set, and then makes a list out of them. 
+    # # print ("The GCF of these two numbers is..")
+    # # print(cf)
+    """   print(cf[-1]) # -1 indicates last.  """
+
 gcf() 
-
-
-
