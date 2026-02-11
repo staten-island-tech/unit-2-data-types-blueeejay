@@ -109,13 +109,14 @@ fff()
 fac = []
 num1 = int(input("State an integer:"))
 num2 = int(input("State another integer. It can be the same integer:"))
-remainder = 0
-remainder = 0
+
 def gcf():
-    for i in range(1, num1 + 1) and (1, num2 + 1): 
+    for i in range(2, num1 + 1): 
         remainder = ((num1) % i) 
+        print(num1, i, num2)
         remainder2 = ((num2) % i )
-        if remainder and remainder2 == 0:
+        print(remainder, remainder2)
+        if remainder ==0 and remainder2 == 0:
             fac.append(i)
     print(fac)
 
@@ -126,5 +127,4 @@ def gcf():
     # # print(cf)
     """   print(cf[-1]) # -1 indicates last.  """
 gcf()
-print(fac)
      
