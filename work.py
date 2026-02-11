@@ -109,10 +109,13 @@ fff()
 fac = []
 num1 = int(input("State an integer:"))
 num2 = int(input("State another integer. It can be the same integer:"))
+remainder = 0
+remainder = 0
 def gcf():
-    for i in range(1, num1 + 1) and (1, num2, + 1): 
-        remainder = ((num1) % i) and ((num2) % i ) # dividing number by factor, in this case, i 
-        if remainder == 0:
+    for i in range(1, num1 + 1) and (1, num2 + 1): 
+        remainder = ((num1) % i) 
+        remainder2 = ((num2) % i )
+        if remainder and remainder2 == 0:
             fac.append(i)
     print(fac)
 
@@ -122,5 +125,6 @@ def gcf():
     # # print ("The GCF of these two numbers is..")
     # # print(cf)
     """   print(cf[-1]) # -1 indicates last.  """
-
-gcf() 
+gcf()
+print(fac)
+     
