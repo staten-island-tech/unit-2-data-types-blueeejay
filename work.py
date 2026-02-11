@@ -113,7 +113,7 @@ num2 = int(input("State another integer. It can be the same integer:"))
 def gcf():
     for i in range(2, num1 + 1): 
         remainder = ((num1) % i) 
-        print(num1, i, num2)
+        # print(num1, i, num2)
         remainder2 = ((num2) % i )
         print(remainder, remainder2)
         if remainder ==0 and remainder2 == 0:
