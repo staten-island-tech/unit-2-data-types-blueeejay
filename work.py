@@ -111,14 +111,14 @@ num1 = int(input("State an integer:"))
 num2 = int(input("State another integer. It can be the same integer:"))
 
 def gcf():
-    for i in range(2, num1 + 1): 
+    for i in range(1, num1 + 1): 
         remainder = ((num1) % i) 
         # print(num1, i, num2)
         remainder2 = ((num2) % i )
-        print(remainder, remainder2)
+        # print(remainder, remainder2)
         if remainder ==0 and remainder2 == 0:
             fac.append(i)
-    print(fac)
+    print(fac[-1])
 
     # print(list(set(fac1) & set(fac2))) # googled this, the two lists are converted into sets, the & records common items in the set, and then makes a list out of them. 
     # # cf = list (set(fac1) & set(fac2)) # googled
